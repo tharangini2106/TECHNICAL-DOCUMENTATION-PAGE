@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+
+html,
+body {
+  min-width: 290px;
+  color: #F5FFFA;
+  background-color: #CD5C5C;
+  font-family: 'Bungee Inline';
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: #8B0000;
+  background-color: #CD785B;
+}
+
+#nav-menu li a {
+  transition: all 0.2s;
+}
+
+#nav-menu li a:hover {
+  background-color: #E1AE9D;
+}
+
+header {
+  color: #F5FFFA;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  color:  #8B0000;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #F5FFFA;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+section article {
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+#main-doc li {
+  font-family: 'Kelly Slab';
+}
+
+#main-doc a {
+  color: #F5FFFA;
+  text-style: none;
+  text-transform: none;
+}
+
+p {
+  font-family: 'Kelly Slab';
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: #f7f7f7;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  color: black;
+}
+
+@media only screen and (max-width: 400px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+}
